@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,32 +8,80 @@
     <!-- link para o css -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
-
 <body>
-    <!-- começo do menu de navegação-->
-    <header class="header_principal">
-        <section class="header_titulo">
+   <header>
+       <!-- inicio do menu de navegação -->
+        <div class="limitador">
             <h1><a href="index.html">Traveller</a></h1>
-        </section>
+            <nav>
+                <h2><a href="" class="icone">Menu &equiv;</a></h2>
 
-        <!-- links do menu -->
-        <nav class="menu_principal">
-            <h2><a href="" class="icone">Menu &equiv; </a></h2>
-            <ul class="menu">
-                <li><a class="menu_item" href="index.html">Home</a></li>
-                <li><a class="menu_item" href="">Sobre</a></li>
-                <li><a class="menu_item" href="">Viajens</a></li>
-                <li><a class="menu_item" href="">Login</a></li>
-            </ul>
-        </nav>
+                <ul class="links-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="viajens.html">Viajens</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- fim do menu de navegação -->
     </header>
-    <!-- fim do menu de navegação -->
     <main>
+        <article class="passeios">
+            <section>
+                <h3>MASP</h3>
+            </section>
+            <section>
+                <h3>Pinacoteca</h3>
+            </section>
+            <section>
+                <h3>Catedral da Sé</h3>
+            </section>
+            <section>
+                <h3>Laiser Tag</h3>
+            </section>
+            <section>
+                <h3>Roller Jam</h3>
+            </section>
+        </article>
 
+        <article class="aventuras">
+            <section>
+                <h3>Cachoeiras</h3>
+            </section>
+            <section>
+                <h3>Praias</h3>
+            </section>
+            <section>
+                <h3>Ilhas</h3>
+            </section>
+            <section>
+                <h3>Cultura</h3>
+            </section>
+            <section>
+                <h3>Acampamentos</h3>
+            </section>
+        </article>
+
+        <article class="hospedagem">
+            <h3>Encontre a hospedagem para sua viagem</h3>
+            <br>
+            <button>Decobrir casas e aps</button>
+            <figure><img src="../images/City_SVG 1city.png" alt=""></figure>
+        </article>
     </main>
     <footer>
-
+        <p>FIAP - 2022</p>
+        <br>
+        <p>Projeto academico desenvolvido por:</p>
+        <ul>
+            <li>Diego Cruz</li>
+            <li>Izabelle Santos do Nascimento</li>
+            <li>Nathalia Bertoulo</li>
+            <li>Pedro Soares</li>
+            <li>Vinicius Mello</li>
+        </ul>
     </footer>
+    <script src="../js/menu.js"></script>
 </body>
-
 </html>

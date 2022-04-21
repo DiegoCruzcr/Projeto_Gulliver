@@ -4,57 +4,157 @@
     box-sizing: border-box;
 }
 
-nav h1 {
-    text-align: right;
-
+body { 
+    background-color: whitesmoke; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Solução para o rodapé */
+    /* Etapa 1: colocar o body em modo flex e definir altura mínima usando a viewport como referência*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-nav h1 a{
+main {
+    /* Eapa 2: fazer o main ocupar todo o espaço necessário para empurrar o rodapé para baixo */
+    flex: 1;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a { text-decoration: none; }
+
+h1 a {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+}
+
+header { 
+    background-color: #fff; 
+    text-transform: uppercase; 
+    
+    /* Deixar o cabeçalho fixo */
+    position: sticky;
+    top: 0;
+}
+
+header .limitador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.limitador {
+    max-width: 1100px;
+    margin: auto;
+    width: 95%;
+}
+
+/* Regras para o texto/link menu */
+nav h2 { text-align: right; }
+
+nav h2 a { 
     color: black;
     font-size: 1.2rem;
     padding: 1rem;
     display: inline-block;
 }
 
-nav h1 a:hover, 
-nav h1 a:focus,
-.menu a:hover
-.menu a:hover {
-    background-color: whitesmoke;
+nav h2 a:hover,
+nav h2 a:focus,
+.links-menu a:hover,
+.links-menu a:focus {
+    background-color: gainsboro;
 }
 
-menu {
+.links-menu {
+    background-color: #fff;
     list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    /* Esta propriedade será
+    usada posteriormente para esconder
+    a lista */
     display: none;
 }
 
-li {
-    list-style: none;
-}
-
-.header_principal {
+.links-menu a {
+    color: black;
+    font-weight: bold;
+    height: 50px;
     display: flex;
-    margin: 10px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.menu_principal {
+/*Obs.: esta regra será aplicada com o auxílio de programação JavaScript */
+.links-menu.aberto {
+    /* Neste ponto, usamos o flex pra voltar
+    a exibir o menu (quando aberto) */
     display: flex;
+
+    /* E fazemos com que os links apareçam 
+    verticalmente */
+    flex-direction: column;
     
+    /* Usamos position e coordenadas
+    para garantir o posicionamento 
+    correto do menu quando aberto */
+    position: absolute;
+    right: 0;
+    left: 0;
 }
 
-.icone {
-    margin: 0px 15px;
+.hospedagem {
+    background-color: gainsboro;
+    margin: 0.5rem;
+    padding: 1rem 0rem 0rem 0rem;
+    border-radius: 50px;
+    text-align: center;
 }
 
-.menu {
+button {
+    background-color: #121212;
+    color: whitesmoke;
+    border: none;
+    padding: 0.5rem;
+    font-weight: normal;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+figure img {
+    padding-top: 1rem;
+    max-width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
     display: flex;
-    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
 }
 
-.menu_item {
-    
-    text-decoration: none;
-    margin: 10px 10px;
+/* media query para alterar o menu */
+@media screen and (min-width: 530px) {
+    nav { width: 70%; }
+    nav h2 { display: none; }
+    .links-menu { display: flex; }
+    .links-menu li { width: 100%; }
+}
+
+/* media query para alterar o tamanho do font-size */
+@media screen and (min-width: 800px) {
+    html { font-size: 18px; }
+    header .limitador { height: 10vh; }
 }
