@@ -1,11 +1,13 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body { 
-    background-color: whitesmoke; 
+body {
+    background-color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* Solução para o rodapé */
     /* Etapa 1: colocar o body em modo flex e definir altura mínima usando a viewport como referência*/
@@ -25,7 +27,9 @@ h1 {
     font-weight: bold;
 }
 
-a { text-decoration: none; }
+a {
+    text-decoration: none;
+}
 
 h1 a {
     background-color: black;
@@ -34,10 +38,10 @@ h1 a {
     padding: 0.3rem 1rem;
 }
 
-header { 
-    background-color: #fff; 
-    text-transform: uppercase; 
-    
+header {
+    background-color: #fff;
+    text-transform: uppercase;
+
     /* Deixar o cabeçalho fixo */
     position: sticky;
     top: 0;
@@ -57,9 +61,11 @@ header .limitador {
 }
 
 /* Regras para o texto/link menu */
-nav h2 { text-align: right; }
+nav h2 {
+    text-align: right;
+}
 
-nav h2 a { 
+nav h2 a {
     color: black;
     font-size: 1.2rem;
     padding: 1rem;
@@ -78,7 +84,7 @@ nav h2 a:focus,
     list-style: none;
     padding: 0;
     margin: 0;
-    
+
     /* Esta propriedade será
     usada posteriormente para esconder
     a lista */
@@ -103,7 +109,7 @@ nav h2 a:focus,
     /* E fazemos com que os links apareçam 
     verticalmente */
     flex-direction: column;
-    
+
     /* Usamos position e coordenadas
     para garantir o posicionamento 
     correto do menu quando aberto */
@@ -135,6 +141,7 @@ figure img {
     max-width: 100%;
 }
 
+
 footer {
     background-color: black;
     color: #fff;
@@ -144,17 +151,67 @@ footer {
     align-items: center;
     text-align: justify;
 }
+footer {
+    padding-top: 10px;
+  
+}
+.devs {
+    margin: 10px;
+  
+}
+
+.devs_names {
+   
+    list-style: none;
+    ;
+    margin: 10px;
+}
+
+.names {
+    margin: 3px;
+    font-size: 65%;
+    font-weight: 500;
+}
+
+.box_direitos {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(129, 129, 129);
+}
+
+.direitos {
+    
+    text-align: center;
+    font-size: 70%;
+    font-weight: 500;
+}
 
 /* media query para alterar o menu */
 @media screen and (min-width: 530px) {
-    nav { width: 70%; }
-    nav h2 { display: none; }
-    .links-menu { display: flex; }
-    .links-menu li { width: 100%; }
+    nav {
+        width: 70%;
+    }
+
+    nav h2 {
+        display: none;
+    }
+
+    .links-menu {
+        display: flex;
+    }
+
+    .links-menu li {
+        width: 100%;
+    }
 }
 
 /* media query para alterar o tamanho do font-size */
 @media screen and (min-width: 800px) {
-    html { font-size: 18px; }
-    header .limitador { height: 10vh; }
+    html {
+        font-size: 18px;
+    }
+
+    header .limitador {
+        height: 10vh;
+    }
 }
