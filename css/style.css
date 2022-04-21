@@ -4,8 +4,57 @@
     box-sizing: border-box;
 }
 
+nav h1 {
+    text-align: right;
 
+}
+
+nav h1 a{
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+nav h1 a:hover, 
+nav h1 a:focus,
+.menu a:hover
+.menu a:hover {
+    background-color: whitesmoke;
+}
+
+menu {
+    list-style: none;
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header_principal {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_principal {
+    display: flex;
+    
+}
+
+.icone {
+    margin: 0px 15px;
+}
+
+.menu {
+    display: flex;
+    margin: 10px;
+}
 
 .menu_item {
+    
     text-decoration: none;
+    margin: 10px 10px;
 }
