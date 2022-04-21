@@ -148,41 +148,41 @@ footer {
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: justify;
-}
-footer {
     padding-top: 10px;
-  
 }
+
+footer h4 {
+    text-align: left;
+}
+
+footer ul li {
+    text-align: left;
+}
+
 .devs {
     margin: 10px;
-  
 }
 
 .devs_names {
-   
     list-style: none;
-    ;
     margin: 10px;
 }
 
 .names {
     margin: 3px;
-    font-size: 65%;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 
 .box_direitos {
-    width: 100%;
     text-align: center;
-    background-color: rgb(129, 129, 129);
+    color: #fff;
+    background-color: #121212;
 }
 
 .direitos {
-    
     text-align: center;
-    font-size: 70%;
+    font-size: 0.7rem;
     font-weight: 500;
 }
 
