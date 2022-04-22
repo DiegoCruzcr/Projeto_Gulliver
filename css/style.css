@@ -1,6 +1,4 @@
-*,
-*::after,
-*::before {
+*, *::after, *::before {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -29,6 +27,7 @@ h1 {
 
 a {
     text-decoration: none;
+    color: #121212;
 }
 
 h1 a {
@@ -141,6 +140,64 @@ figure img {
     max-width: 100%;
 }
 
+h3 {
+    text-align: left;
+    padding: 1rem;
+}
+
+.passeios a,
+.aventuras a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.masp, .pinacoteca, .catedral, .mirante, .roller,
+.cachoeiras, .praias, .ilhas, .cultura, .acampamentos {
+    background-image: url(../images/masp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vh;
+    height: 30vh;
+    border-radius: 20px;
+}
+
+.pinacoteca {
+    background-image: url(../images/pinacoteca.png);
+}
+
+.catedral {
+    background-image: url(../images/catedral.png);
+}
+
+.mirante {
+    background-image: url(../images/mirantes-sesc.png);
+}
+
+.roller {
+    background-image: url(../images/roller-jam.png);
+}
+
+.cachoeiras {
+    background-image: url(../images/cachoeiras.png);
+}
+
+.praias {
+    background-image: url(../images/praias.png);
+}
+
+.ilhas {
+    background-image: url(../images/ilhas.png);
+}
+
+.cultura {
+    background-image: url(../images/cultura.png);
+}
+
+.acampamentos {
+    background-image: url(../images/acampamento.png);
+}
 
 footer {
     background-color: black;
@@ -177,7 +234,7 @@ footer ul li {
 .box_direitos {
     text-align: center;
     color: #fff;
-    background-color: #121212;
+    background-color: black;
 }
 
 .direitos {
