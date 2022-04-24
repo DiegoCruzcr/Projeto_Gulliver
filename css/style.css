@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Raleway:wght@300;500;700&display=swap');
+
 *, *::after, *::before {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+html { 
+    font-size: 15px; 
+}
+
+.modo-contraste{
+    background-color: #070707;
+    color: #fff;
+}
+
 body {
-    background-color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gainsboro;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
     /* Solução para o rodapé */
     /* Etapa 1: colocar o body em modo flex e definir altura mínima usando a viewport como referência*/
     display: flex;
@@ -27,12 +38,11 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #121212;
 }
 
 h1 a {
-    background-color: black;
-    color: whitesmoke;
+    background-color: #070707;
+    color: #fff;
     border-radius: 5px;
     padding: 0.3rem 1rem;
 }
@@ -65,7 +75,7 @@ nav h2 {
 }
 
 nav h2 a {
-    color: black;
+    color: #070707;
     font-size: 1.2rem;
     padding: 1rem;
     display: inline-block;
@@ -91,7 +101,7 @@ nav h2 a:focus,
 }
 
 .links-menu a {
-    color: black;
+    color: #070707;
     font-weight: bold;
     height: 50px;
     display: flex;
@@ -117,22 +127,34 @@ nav h2 a:focus,
     left: 0;
 }
 
-.hospedagem {
-    background-color: gainsboro;
-    margin: 0.5rem;
-    padding: 1rem 0rem 0rem 0rem;
-    border-radius: 50px;
-    text-align: center;
+h3 {
+    margin: 1rem;
 }
 
-button {
-    background-color: #121212;
-    color: whitesmoke;
-    border: none;
-    padding: 0.5rem;
-    font-weight: normal;
-    font-size: 1rem;
+.tema {
+     text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+a img {
+    max-width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.hospedagem {
+    background-color: #c72434;
+    margin: 0.5rem;
+    padding: 1rem 0rem;
     border-radius: 50px;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 figure img {
@@ -140,79 +162,26 @@ figure img {
     max-width: 100%;
 }
 
-h3 {
-    text-align: left;
-    padding: 1rem;
-}
-
-.passeios a,
-.aventuras a {
+button {
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: normal;
     font-size: 1.2rem;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
+    border-radius: 15px;
 }
 
-.masp, .pinacoteca, .catedral, .mirante, .roller,
-.cachoeiras, .praias, .ilhas, .cultura, .acampamentos {
-    background-image: url(../images/masp.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50vh;
-    height: 30vh;
-    border-radius: 20px;
-}
-
-.pinacoteca {
-    background-image: url(../images/pinacoteca.png);
-}
-
-.catedral {
-    background-image: url(../images/catedral.png);
-}
-
-.mirante {
-    background-image: url(../images/mirantes-sesc.png);
-}
-
-.roller {
-    background-image: url(../images/roller-jam.png);
-}
-
-.cachoeiras {
-    background-image: url(../images/cachoeiras.png);
-}
-
-.praias {
-    background-image: url(../images/praias.png);
-}
-
-.ilhas {
-    background-image: url(../images/ilhas.png);
-}
-
-.cultura {
-    background-image: url(../images/cultura.png);
-}
-
-.acampamentos {
-    background-image: url(../images/acampamento.png);
+#contraste {
+    color: #fff;
+    background-color: #c72434;
 }
 
 footer {
-    background-color: black;
+    background-color: #070707;
     color: #fff;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
+    font-weight: normal;
     padding-top: 10px;
-}
-
-footer h4 {
-    text-align: left;
-}
-
-footer ul li {
     text-align: left;
 }
 
@@ -229,12 +198,6 @@ footer ul li {
     margin: 3px;
     font-size: 0.9rem;
     font-weight: 500;
-}
-
-.box_direitos {
-    text-align: center;
-    color: #fff;
-    background-color: black;
 }
 
 .direitos {
@@ -266,9 +229,5 @@ footer ul li {
 @media screen and (min-width: 800px) {
     html {
         font-size: 18px;
-    }
-
-    header .limitador {
-        height: 10vh;
     }
 }
