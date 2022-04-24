@@ -131,7 +131,7 @@ h3 {
     margin: 1rem;
 }
 
-.tema {
+.pcd {
      text-align: center;
 }
 
@@ -172,7 +172,7 @@ button {
     border-radius: 15px;
 }
 
-#contraste {
+.btn-pcd {
     color: #fff;
     background-color: #c72434;
 }
