@@ -81,8 +81,8 @@ nav h2 {
 
 nav h2 a {
     color: #070707;
-    font-size: 1rem;
-    padding: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
     display: inline-block;
 }
 
@@ -149,7 +149,6 @@ h4 {
 }
 
 section {
-    margin: 5px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -223,13 +222,13 @@ footer {
 
 .names {
     margin: 3px;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .direitos {
     text-align: center;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
