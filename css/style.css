@@ -15,9 +15,14 @@ html {
     color: #fff;
 }
 
+.rodape-contraste {
+    background-color: #fff;
+    color: #070707;
+}
+
 body {
-    background-color: gainsboro;
     font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gainsboro;
     /* Solução para o rodapé */
     /* Etapa 1: colocar o body em modo flex e definir altura mínima usando a viewport como referência*/
     display: flex;
