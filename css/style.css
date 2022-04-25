@@ -135,6 +135,8 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     background-color: #070707;
+    height: 38px;
+    align-items: center;
 }
 
 section {
@@ -179,8 +181,10 @@ button {
     color: #fff;
     background-color: #c72434;
     font-weight: bold;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.7rem;
     margin: 0.5rem;
+    font-size: medium;
+    
 }
 
 footer {
