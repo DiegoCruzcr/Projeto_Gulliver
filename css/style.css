@@ -251,6 +251,15 @@ footer {
         width: 100%;
     }
 }
+/* .image-contraste{
+    max-width: 20px;
+    max-height: 20px;
+
+} */
+figcaption{
+    width: 250px;
+    height: 200px;
+}
 
 /* media query para alterar o tamanho do font-size */
 @media screen and (min-width: 800px) {
