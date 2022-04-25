@@ -132,10 +132,12 @@ h3 {
 }
 
 .pcd {
-     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #070707;
 }
 
-section{
+section {
     margin: 5px;
     display: flex;
     justify-content: space-evenly;
@@ -143,7 +145,7 @@ section{
 }
 
 a img {
-    max-width: 250px;
+    width: 250px;
     height: 200px;
     border-radius: 10px;
 }
@@ -169,13 +171,16 @@ button {
     border: none;
     padding: 1rem 2rem;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border-radius: 15px;
 }
 
 .btn-pcd {
     color: #fff;
     background-color: #c72434;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
 }
 
 footer {
