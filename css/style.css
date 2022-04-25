@@ -159,6 +159,8 @@ a img {
     width: 250px;
     height: 200px;
     border-radius: 10px;
+    
+
 }
 
 .passeios {
@@ -176,6 +178,27 @@ a img {
     border-radius: 50px;
     text-align: center;
     font-size: 1.3rem;
+}
+
+.hospedagem_buttom {
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: normal;
+    font-size: 1.1rem;
+    border-radius: 15px;
+}
+
+.hospedagem_buttom:hover {
+    background-color: #fff;
+    color: #070707;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+#hospedagem_image {
+    margin: 20px;
 }
 
 figure img {
@@ -201,6 +224,11 @@ button {
     margin: 0.5rem;
     font-size: medium;
     
+}
+
+.btn-pcd:hover {
+    color: #070707;
+    background-color: #fff;
 }
 
 footer {
