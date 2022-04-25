@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,62 +8,67 @@
     <title>Traveller</title>
     <!-- link para o css -->
     <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <div class="pcd">
-        <button class="btn-pcd" title="Ativar contraste">Ativar Contraste</button>
-        <button class="btn-pcd" id="aumentar" title="Aumentar fonte">A +</button>
-        <button class="btn-pcd" id="diminuir" title="Diminuir fonte">A -</button>
+            <button class="btn-pcd" title="Ativar contraste"><i class="fa-solid fa-circle-half-stroke"></i></i></button>
+            <button class="btn-pcd" id="aumentar" title="Aumentar fonte">A +</button>
+            <button class="btn-pcd" id="diminuir" title="Diminuir fonte">A -</button>
         </div>
         <!-- inicio do menu de navegação -->
         <aside>
-        <div class="limitador">
-            <h1><a href="index.html">Traveller</a></h1>
-            <nav>
-                <h2><a href="" class="icone">Menu &equiv;</a></h2>
+            <div class="limitador">
+                <h1><a href="index.html">Traveller</a></h1>
+                <nav>
+                    <h2><a href="" class="icone">Menu &equiv;</a></h2>
 
-                <ul class="links-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="viajens.html">Viajens</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </nav>
-        </div>
+                    <ul class="links-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="viajens.html">Viajens</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
         </aside>
         <!-- fim do menu de navegação -->
     </header>
     <main>
         <article class="passeios">
             <h3>Passeios em São Paulo</h3>
-        <section>
-            <a href="" id="masp"><img src="../images/masp.png" alt="Musei MASP"></a>
-            <a href=""><img src="../images/pinacoteca.png" alt="Musei Pinacoteca"></a>
-            <a href=""><img src="../images/catedral.png" alt="Igreja Catedral da Sé"></a>
-            <a href=""><img src="../images/mirantes-sesc.png" alt="Mirante SESC"></a>
-            <a href=""><img src="../images/roller-jam.png" alt="Roller Jam"></a>
-        </section>
+            <section>
+                <a href="" id="masp"><img src="../images/masp.png" alt="Museu MASP."></a>
+                <a href=""><img src="../images/pinacoteca.png" alt="Museu Pinacoteca"></a>
+                <a href=""><img src="../images/catedral.png" alt="Igreja Catedral da Sé"></a>
+                <a href=""><img src="../images/mirantes-sesc.png" alt="Mirante SESC"></a>
+                <a href=""><img src="../images/roller-jam.png" alt="Roller Jam"></a>
+            </section>
         </article>
         <article class="aventuras">
             <h3>As melhores aventuras</h3>
-        <section>
-            <a href=""><img src="../images/cachoeiras.png" alt="Cachoeiras"></a>
-            <a href=""><img src="../images/ilhas.png" alt="Ilhas"></a>
-            <a href=""><img src="../images/praias.png" alt="Praias"></a>
-            <a href=""><img src="../images/acampamento.png" alt="Acampamento"></a>
-            <a href=""><img src="../images/cultura.png" alt="Cidades culturais"></a>
-        </section>
+            <section>
+                <a href=""><img src="../images/cachoeiras.png" alt="Cachoeiras"></a>
+                <a href=""><img src="../images/ilhas.png" alt="Ilhas"></a>
+                <a href=""><img src="../images/praias.png" alt="Praias"></a>
+                <a href=""><img src="../images/acampamento.png" alt="Acampamento"></a>
+                <a href=""><img src="../images/cultura.png" alt="Cidades culturais"></a>
+            </section>
         </article>
         <article class="hospedagem">
             <h3>Encontre a hospedagem para sua viagem</h3>
-            <button>Decobrir casas e aps</button>
+            <button>Descobrir casas e aps</button>
             <figure><img src="../images/City_SVG.png" alt="Cidade"></figure>
         </article>
     </main>
     <footer>
-        <article class= "devs">
-            <h3>Projeto academico desenvolvido por:</h3>
+        <article class="devs">
+            <h4>Projeto academico desenvolvido por:</h4>
             <ul class="devs_names">
                 <li class="names">Diego Cruz,</li>
                 <li class="names">Izabelle Santos do Nascimento,</li>
@@ -72,7 +78,8 @@
             </ul>
         </article>
         <article>
-            <h2 class="direitos">© 2022 FIAP | Faculdade de Adminstração e Informática Paulista | Versão 0.1p | Todas as imagens são marcas registradas dos seus respectivos proprietários.</h2>
+            <h2 class="direitos">© 2022 FIAP | Faculdade de Adminstração e Informática Paulista | Versão 0.1p | Todas as
+                imagens são marcas registradas dos seus respectivos proprietários.</h2>
         </article>
     </footer>
     <script src="../js/menu.js"></script>
@@ -80,4 +87,5 @@
     <script src="../js/letra.js"></script>
     <script src="../js/modal.js"></script>
 </body>
+
 </html>
