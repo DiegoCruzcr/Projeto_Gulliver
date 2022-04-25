@@ -15,9 +15,14 @@ html {
     color: #fff;
 }
 
+.rodape-contraste {
+    background-color: #fff;
+    color: #070707;
+}
+
 body {
-    background-color: gainsboro;
     font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gainsboro;
     /* Solução para o rodapé */
     /* Etapa 1: colocar o body em modo flex e definir altura mínima usando a viewport como referência*/
     display: flex;
@@ -76,7 +81,7 @@ nav h2 {
 
 nav h2 a {
     color: #070707;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
     display: inline-block;
 }
@@ -131,9 +136,13 @@ h3 {
     margin: 1rem;
 }
 
+h4 {
+    margin: 0.7rem;
+}
+
 .pcd {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     background-color: #070707;
     height: 38px;
     align-items: center;
@@ -152,10 +161,17 @@ a img {
     border-radius: 10px;
 }
 
+.passeios {
+    margin: 0.5rem 1rem;
+}
+
+.aventuras {
+    margin: 0.5rem 1rem;
+}
 
 .hospedagem {
     background-color: #c72434;
-    margin: 0.5rem;
+    margin: 0.8rem 2.35rem;
     padding: 1rem 0rem;
     border-radius: 50px;
     text-align: center;
@@ -201,18 +217,19 @@ footer {
 
 .devs_names {
     list-style: none;
+    
     margin: 10px;
 }
 
 .names {
     margin: 3px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 500;
 }
 
 .direitos {
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     font-weight: 500;
 }
 
