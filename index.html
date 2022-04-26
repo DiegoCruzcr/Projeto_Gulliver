@@ -10,12 +10,12 @@
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link para o css -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <div class="pcd">
-            <button class="btn-pcd" title="Ativar contraste"><i class="fa-solid fa-circle-half-stroke icone"></i></button>
+            <button class="btn-pcd" title="Contraste"><i class="fa-solid fa-circle-half-stroke"></i></button>
             <button class="btn-pcd" id="aumentar" title="Aumentar fonte">A +</button>
             <button class="btn-pcd" id="diminuir" title="Diminuir fonte">A -</button>
         </div>
@@ -41,21 +41,11 @@
         <article class="passeios">
             <h3>Passeios em São Paulo</h3>
         <section>
-            <a href="" id="masp">
-                <figure><img src="../images/masp.png" alt="Imagem com uma fotografia mostrando o prédio MASP na Avenida Paulista.">
-                </figure></a>
-            <a href="">
-                <figure><img src="../images/pinacoteca.png" alt="Imagem com uma fotografia da pinacoteca de São Paulo.">
-                </figure></a>
-            <a href="">
-                <figure><img src="../images/catedral.png" alt="Imagem com uma fotografia da pinacoteca de São Paulo, ao seu entorno, alguns prédios.">
-                </figure></a>
-            <a href="">
-                <figure><img src="../images/mirantes-sesc.png" alt="Fotografia do Mirante SESC, com algumas mesas e cadeiras e pessoas apreciando a bela vista da Avenida Paulista à noite.">
-                </figure></a>
-            <a href="">
-                <figure><img src="../images/roller-jam.png" alt="Fotografia de uma pista de patinação, um ambiente fechado com uma iluminação com LED azul.">
-                </figure></a>
+            <a href="" id="masp"><img src="../images/masp.png" alt="Imagem com uma fotografia mostrando o prédio MASP na Avenida Paulista."></a>
+            <a href=""><img src="../images/pinacoteca.png" alt="Imagem com uma fotografia da pinacoteca de São Paulo."></a>
+            <a href=""><img src="../images/catedral.png" alt="Imagem com uma fotografia da pinacoteca de São Paulo, ao seu entorno, alguns prédios."></a>
+            <a href=""><img src="../images/mirantes-sesc.png" alt="Fotografia do Mirante SESC, com algumas mesas e cadeiras e pessoas apreciando a bela vista da Avenida Paulista à noite."></a>
+            <a href=""><img src="../images/roller-jam.png" alt="Fotografia de uma pista de patinação, um ambiente fechado com uma iluminação com LED azul."></a>
         </section>
         </article>
         <article class="aventuras">
@@ -70,8 +60,8 @@
         </article>
         <article class="hospedagem">
             <h3>Encontre a hospedagem para sua viagem</h3>
-            <button>Descobrir casas e aps</button>
-            <figure><img src="../images/City_SVG.png" alt="Cidade"></figure>
+            <a class="hospedagem_buttom" href="">Descobrir Casas e Hoteis</a>
+            <figure id="hospedagem_image"><img src="../images/City_SVG.png" alt="Cidade"></figure>
         </article>
     </main>
     <footer>
