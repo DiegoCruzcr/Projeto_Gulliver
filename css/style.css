@@ -158,8 +158,6 @@ a img {
     width: 250px;
     height: 200px;
     border-radius: 10px;
-    
-
 }
 
 .passeios {
@@ -172,18 +170,17 @@ a img {
 
 .hospedagem {
     background-color: #c72434;
-    margin: 0.8rem 2.35rem;
+    margin: 1rem 2rem;
     padding: 1rem 0rem;
     border-radius: 50px;
     text-align: center;
-    font-size: 1.3rem;
 }
 
 .hospedagem_buttom {
     background-color: #070707;
     color: #fff;
     border: none;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     font-weight: normal;
     border-radius: 15px;
 }
@@ -192,10 +189,6 @@ a img {
     background-color: #fff;
     color: #070707;
     font-weight: normal;
-}
-
-#hospedagem_image {
-    margin: 20px;
 }
 
 figure img {
@@ -209,7 +202,6 @@ button {
     border: none;
     padding: 1rem 2rem;
     font-weight: normal;
-    font-size: 1.1rem;
     border-radius: 15px;
 }
 
@@ -219,8 +211,7 @@ button {
     font-weight: bold;
     padding: 0.2rem 0.7rem;
     margin: 0.5rem;
-    font-size: medium;
-    
+    font-size: large;
 }
 
 .btn-pcd:hover {
@@ -242,19 +233,12 @@ footer {
 
 .devs_names {
     list-style: none;
-    
     margin: 10px;
-}
-
-.names {
-    margin: 3px;
-    font-weight: 500;
 }
 
 .direitos {
     text-align: center;
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: normal;
 }
 
 /* media query para alterar o menu */
