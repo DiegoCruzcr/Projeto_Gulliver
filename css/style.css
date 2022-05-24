@@ -190,7 +190,15 @@ a img {
     color: #070707;
     font-weight: normal;
 }
-
+.header_color{
+    background-color: #FF4500;
+    
+}
+.icons{
+    /* font-weight: 100vw; */
+    font-size: 10vh;
+    
+}
 figure img {
     padding-top: 1rem;
     max-width: 100%;
