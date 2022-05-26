@@ -17,19 +17,19 @@
 
 <body>
     <!-- Header -->
-    <header class="">
+    <header class="sticky-top">
         <div class="nav header_color container-fluid ">
             <h2 class="ml-3 p-3">Logo</h2>  
         </div>
     </header>
-    <main>
+    <div>
         <!-- Barra de pesquisa -->
         <div class="card mb-3">
             <img class="img-fluid" src="./images/pexels-photo-culinaria-pesquisa.jpeg    " alt="Card image">
             <div class="card-img-overlay">
                 <form class="navbar-form navbar-left " role="search">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Pesquisar">
+                        <input type="text" class="form-control" placeholder="Pesquisar restaurantes e cidades">
                     </div>
                 </form>
             </div>
@@ -37,7 +37,7 @@
           <!-- Fim da barra de pesquisa -->
 
           <!-- Label de texto informativo -->
-
+         <h4 class="text-center text-uppercase">Encontre o melhor restaurante para você:</h4>
           <!-- Fim Label-->
 
           <!-- Icones -->
@@ -49,7 +49,7 @@
               </ul>
                 
           <!-- Label de texto informativo -->
-          
+          <h4 class="text-center text-uppercase">Conheça as pricipais culinárias:</h4>
           <!-- Fim Label-->
 
           <!-- Inicio Carousel -->
@@ -63,14 +63,23 @@
               <div class="carousel-item active ">
                 <img class="d-block w-100" src="./images/pexels-photo-carousel-comida-japonesa.jpeg" alt="First slide">
                 <!-- figure caption -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-4">Japonesa</h5>
+                </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="./images/pexels-photo-carousel-comida-mexicana.jpeg" alt="Second slide">
                 <!-- figure caption -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-4">Mexicana</h5>
+                </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="./images/pexels-photo-carousel-comida-chinesa.jpeg" alt="Third slide">
                 <!-- figure caption -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-4">Chinesa</h5>
+                </div>
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -85,10 +94,8 @@
           <!-- Fim Carousel -->
 
           <!-- Label de texto informativo -->
-          
+          <h4 class="text-center text-uppercase">Conheça os pratos tipicos:</h4>
           <!-- Fim Label-->
-
-
                 
           <!-- Inicio do carousel  -->
           <div id="carouselPratosTipicos" class="carousel slide mb-5"  data-ride="carousel">
@@ -97,41 +104,46 @@
               <li data-target="#carouselAcaraje" data-slide-to="1"></li>
               <li data-target="#carouselFeijoada" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner ">
-              <div class="carousel-item active ">
-                <img class="d-block w-100" src="./images/pexels-photo-carousel-pratotipico-mocoto.jpeg" alt="First slide">
-                <!-- figure caption -->
+              <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img class="d-block w-100" src="./images/pexels-photo-carousel-pratotipico-mocoto.jpeg" alt="First slide">
+                    <!-- figure caption -->
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="display-4">Mocotó</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/pexels-photo-carousel-pratotipico-acaraje.jpeg" alt="Second slide">
+                    <!-- figure caption -->
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="display-4">Acarajé</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/pexels-photo-carousel-comida-br.jpeg" alt="Third slide">
+                    <!-- figure caption -->
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="display-4">Brasileira</h5>
+                    </div>
+                </div>
               </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./images/pexels-photo-carousel-pratotipico-acaraje.jpeg" alt="Second slide">
-                <!-- figure caption -->
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./images/pexels-photo-carousel-comida-br.jpeg" alt="Third slide">
-                <!-- figure caption -->
-              </div>
+                  <a class="carousel-control-prev" href="#carouselPratosTipicos" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselPratosTipicos" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselPratosTipicos" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselPratosTipicos" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
           <!-- Fim Carousel -->
-
-          <!-- Footer -->
-          <footer>
-
-          </footer>
-          <!-- Fim do footer -->
+        </div>
     </main>
-    <!-- footer -->
-    <!-- <footer>
-
-    </footer> -->
+      <!-- Footer -->
+      <footer>
+      
+      </footer>
+      <!-- Fim do footer -->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
