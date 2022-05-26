@@ -1,0 +1,34 @@
+.bg-orange{
+    background-color: #FF4500;
+}
+
+.icons{
+    /* font-weight: 100vw; */
+    font-size: 10vh;
+    
+}
+
+
+
+
+footer {
+    background-color: #070707;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.devs {
+    margin: 10px;
+}
+
+.devs_names {
+    list-style: none;
+    margin: 10px;
+}
+
+.direitos {
+    text-align: center;
+    font-weight: normal;
+}
