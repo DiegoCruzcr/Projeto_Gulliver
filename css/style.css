@@ -266,6 +266,10 @@ figcaption{
     height: 90vh;
 }
 
+form input {
+    margin-top: 40vh;
+}
+
 /* media query para alterar o menu */
 @media screen and (min-width: 530px) {
     nav {
