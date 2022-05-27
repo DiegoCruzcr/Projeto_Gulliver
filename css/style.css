@@ -249,6 +249,23 @@ footer {
     font-weight: normal;
 }
 
+/* .image-contraste{
+    max-width: 20px;
+    max-height: 20px;
+
+} */
+figcaption{
+    width: 250px;
+    height: 200px;
+}
+
+.card {
+    background-image: url(../images/carne-barra-de-pesquisas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
 /* media query para alterar o menu */
 @media screen and (min-width: 530px) {
     nav {
@@ -266,15 +283,6 @@ footer {
     .links-menu li {
         width: 100%;
     }
-}
-/* .image-contraste{
-    max-width: 20px;
-    max-height: 20px;
-
-} */
-figcaption{
-    width: 250px;
-    height: 200px;
 }
 
 /* media query para alterar o tamanho do font-size */
