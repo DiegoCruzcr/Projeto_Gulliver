@@ -70,7 +70,7 @@ footer {
     font-weight: normal;
 }
 .container-ajust{
-    display: flex;
+    height: 15vh;
 
 }
 .text-label-info{
