@@ -11,7 +11,7 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- Nosso CSS -->
-  <link rel="stylesheet" href="/culinária/culinaria.css">
+  <link rel="stylesheet" href="../css/culinaria.css">
   <title>Culinaria</title>
 
   <!-- fonts awesome -->
@@ -23,9 +23,15 @@
 <body>
 
   <!-- Header -->
+  <div class="fixed top">
+  <div class="pcd">
+    <button class="btn-pcd" title="Contraste"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <button class="btn-pcd" id="aumentar" title="Aumentar fonte">A +</button>
+    <button class="btn-pcd" id="diminuir" title="Diminuir fonte">A -</button>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-orange">
     <div class="container-fluid">
-      <h1><a href="index.html" class="text-decoration-none blockquote">Traveller</a></h1>
+      <h1><a href="../index.html" class="text-decoration-none text-white blockquote">Traveller</a></h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,33 +39,35 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Sobre</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Dropdown
+              Viajens
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Hospedagem</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="#">Aluguel de carros</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="culinaria.html">Culinaria</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#">Login</a>
           </li>
         </ul>
 
       </div>
     </div>
   </nav>
+  </div>
   <!-- fim do header -->
 
   </header >
@@ -83,27 +91,28 @@
     <!-- Fim Label-->
 
     <!-- Icones -->
-    <div class="container-fluid">
+    <div class="container">
       <ul class="nav justify-content-between mb-5">
         <li class="nav-item"><i class="fa-solid fa-utensils icons"></i></li>
         <li class="nav-item"><i class="fa-solid fa-thumbs-up icons"></i></li>
         <li class="nav-item"><i class="fa-solid fa-location-dot icons"></i></li>
       </ul>
+    </div>
 
-
+    <div class="container-fluid">
       <!-- Inicio Carousel Primeiro Card -->
       <div class="row">
       <div class="col-12 col-sm-12 col-md-12 col-lg-6 ">
       <!-- Label de texto informativo -->
       <h4 class="text-center text-uppercase">Conheça as pricipais culinárias:</h4>
       <!-- Fim Label-->
-      <div id="carouselExampleCaptions" class="carousel slide mb-5 mt-3 " data-bs-ride="carousel">
+      <div id="carouselCulinaria" class="carousel slide mb-5 mt-3 " data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          <button type="button" data-bs-target="#carouselCulinaria" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          <button type="button" data-bs-target="#carouselCulinaria" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          <button type="button" data-bs-target="#carouselCulinaria" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
@@ -131,12 +140,12 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCulinaria"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCulinaria"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -152,13 +161,13 @@
       <!-- Label de texto informativo -->
       <h4 class="text-center text-uppercase">Conheça os pratos tipicos:</h4>
       <!-- Fim Label-->
-      <div id="carouselExampleCaptions" class="carousel slide mb-5 mt-3" data-bs-ride="carousel">
+      <div id="carouselPratos" class="carousel slide mb-5 mt-3" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          <button type="button" data-bs-target="#carouselPratos" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          <button type="button" data-bs-target="#carouselPratos" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          <button type="button" data-bs-target="#carouselPratos" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
@@ -186,12 +195,12 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPratos"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPratos"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>

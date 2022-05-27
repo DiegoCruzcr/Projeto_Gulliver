@@ -1,0 +1,71 @@
+.pcd {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #070707;
+    height: 38px;
+    align-items: center;
+}
+
+button {
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: normal;
+    border-radius: 15px;
+}
+
+.btn-pcd {
+    color: #fff;
+    background-color: #c72434;
+    font-weight: bold;
+    padding: 0.2rem 0.7rem;
+    margin: 0.5rem;
+    font-size: large;
+}
+
+.btn-pcd:hover {
+    color: #070707;
+    background-color: #fff;
+}
+
+h1 a {
+    background-color: #070707;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bg-orange{
+    background-color: #FF4500;
+}
+
+.icons{
+    /* font-weight: 100vw; */
+    font-size: 10vh;
+    
+}
+
+footer {
+    background-color: #070707;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.devs {
+    margin: 10px;
+}
+
+.devs_names {
+    list-style: none;
+    margin: 10px;
+}
+
+.direitos {
+    text-align: center;
+    font-weight: normal;
+}
