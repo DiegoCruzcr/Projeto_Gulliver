@@ -44,7 +44,7 @@ h1 a {
 
 .icons{
     /* font-weight: 100vw; */
-    font-size: 10vh;
+    font-size: 9vh;
     
 }
 
@@ -68,4 +68,16 @@ footer {
 .direitos {
     text-align: center;
     font-weight: normal;
+}
+.container-ajust{
+    display: flex;
+
+}
+.text-label-info{
+    text-align: center;
+    color: #fff;
+}
+.icons-white{
+    color: #fff;
+    text-align: end;
 }
