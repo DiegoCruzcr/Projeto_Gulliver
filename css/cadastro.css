@@ -28,6 +28,11 @@ body {
     width: 400px;
 }
 
+.center {
+    text-align: center;
+    word-spacing: 5px;
+}
+
 h1 {
     text-align: center;
     color: #282262;
