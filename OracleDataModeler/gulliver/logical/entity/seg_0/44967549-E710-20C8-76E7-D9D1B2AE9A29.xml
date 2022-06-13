@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44967549-E710-20C8-76E7-D9D1B2AE9A29" name="COOKING_CATEGORY">
+<createdBy>dcsantos</createdBy>
+<createdTime>2022-06-13 23:22:28 UTC</createdTime>
+<ownerDesignName>gulliver</ownerDesignName>
+<engineerTo>
+<item key="DAE34B75-B067-32B0-78CD-35C74D6DA1B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COOKING_CATEGORY" id="EB9B3E44-EA9E-DFAF-3A5B-448E7EDA67BB">
+<createdBy>dcsantos</createdBy>
+<createdTime>2022-06-13 23:23:59 UTC</createdTime>
+<ownerDesignName>gulliver</ownerDesignName>
+<engineerTo>
+<item key="DAE34B75-B067-32B0-78CD-35C74D6DA1B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_FAVORITE_COOKING_NAME" id="6DB3B4BD-42B9-D819-0037-32DBCDA36162">
+<createdBy>dcsantos</createdBy>
+<createdTime>2022-06-13 23:25:54 UTC</createdTime>
+<ownerDesignName>gulliver</ownerDesignName>
+<engineerTo>
+<item key="DAE34B75-B067-32B0-78CD-35C74D6DA1B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

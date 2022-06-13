@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="565C8B62-BD4B-DAF4-BB14-B25C3DCEFF22" name="PLACE_NEIGHBORHOOD">
+<createdBy>dcsantos</createdBy>
+<createdTime>2022-06-13 22:54:52 UTC</createdTime>
+<ownerDesignName>gulliver</ownerDesignName>
+<engineerTo>
+<item key="DAE34B75-B067-32B0-78CD-35C74D6DA1B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>
