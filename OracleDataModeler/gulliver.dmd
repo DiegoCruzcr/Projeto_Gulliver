@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="gulliver" id="E8CDCD4D-6B6B-6515-70F6-5F8BD7DE1094" version="3.5">
-<createdBy>dcsantos</createdBy>
-<createdTime>2022-06-13 22:36:48 UTC</createdTime>
-<ownerDesignName>gulliver</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>E8CDCD4D-6B6B-6515-70F6-5F8BD7DE1094</designId>
-</OSDM_Design>
