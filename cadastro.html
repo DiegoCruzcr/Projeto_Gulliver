@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Cadastrar-se</h1>
+            <div class="label-float">
+                <input type="text" id="nome" required>
+                <label for="nome">Nome</label>
+            </div>
+            <div class="label-float">
+                <input type="date" id="data">
+                <label for="data">Data de Nascimento</label>
+            </div>
+            <div class="label-float">
+                <input type="text" id="local" required>
+                <label for="local">Localização</label>
+            </div>
+            <div>
+                <p>Lugares que gosta de visitar</p>
+               <div class="center">
+                    <input value="Praia" type="checkbox" id="Praia">
+                    <label for="Praia">Praia</label>
+
+                    <input value="Parque" type="checkbox" id="Parque">
+                    <label for="Parque">Parque</label>
+
+                    <input type="checkbox" id="Cinema">
+                    <label value="Cinema" for="Cinema">Cinema</label>
+
+                    <input type="checkbox" id="Museu">
+                    <label value="Museu" for="Museu">Museu</label>
+
+                    <input type="checkbox" id="Zoologico">
+                    <label value="Zoologico" for="Zoologico">Zoologico</label>
+                </div>
+            </div>
+            <div class="label-float">
+                <input type="text" id="usuario" required>
+                <label for="usuario">Usuário</label>
+            </div>
+            <div class="label-float">
+                <input type="password" id="senha" required>
+                <label for="senha">Senha</label>
+                <i id="senha1" class="fa-solid fa-eye"></i>
+            </div>
+            <div class="label-float">
+                <input type="password" id="confirmaSenha" required>
+                <label for="confirmaSenha">Confirmar senha</label>
+                <i id="senha2" class="fa-solid fa-eye"></i>
+            </div>
+            <div class="justify-center">
+                <button>Cadastrar</button>
+            </div>
+            <div class="justify-center">
+                <hr>
+            </div>
+            <p> Já tem uma conta?
+                <a href="login.html">Login</a>
+            </p>
+        </div>
+    </div>
+    <script src="cadastro.js"></script>
+</body>
+
+</html>

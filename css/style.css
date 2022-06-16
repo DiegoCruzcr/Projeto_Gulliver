@@ -31,7 +31,7 @@ body {
 }
 
 main {
-    /* Eapa 2: fazer o main ocupar todo o espaço necessário para empurrar o rodapé para baixo */
+    /* Etapa 2: fazer o main ocupar todo o espaço necessário para empurrar o rodapé para baixo */
     flex: 1;
 }
 
@@ -152,6 +152,7 @@ nav ul li:hover ul {
     border-radius: 4px;
 }
 
+
 h3 {
     margin: 1rem;
 }
@@ -214,6 +215,54 @@ a img {
     background-color: #FF4500;
     
 }
+
+.contato {
+    /* margin: 1rem 2rem; */
+    width: 450px; 
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 1rem 0rem;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato_buttom {
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-weight: normal;
+    border-radius: 15px;
+}
+
+.contato_buttom:hover {
+    background-color: #fff;
+    color: #070707;
+    font-weight: normal;
+}
+
+.contato_imput {
+    display: block;
+    height: 30px;
+    width: 450px;
+    margin-bottom: 5px;
+    color: black;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+
+.contato_textarea {
+    display: block;
+    margin-bottom: 5px;
+    justify-content: center;
+    width: 450px;
+    border-radius: 5px;
+}
+
+
 .icons{
     /* font-weight: 100vw; */
     font-size: 10vh;
@@ -223,6 +272,13 @@ figure img {
     padding-top: 1rem;
     max-width: 100%;
 }
+
+form {
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+}
+
 
 button {
     background-color: #070707;
@@ -312,3 +368,4 @@ figcaption{
         font-size: 18px;
     }
 }
+
