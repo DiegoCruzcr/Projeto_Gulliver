@@ -1,8 +1,0 @@
-git init ==> inicia repositorio local
-git branch -m master main ==> altera o nome da branch
-git clone https://github.com/DiegoCruzcr/Projeto_Gulliver.git ==> clonar repositorio
-fork ==> fazer um fork no repositorio https://github.com/DiegoCruzcr/Projeto_Gulliver.git
-git checkout -t origin/(css/html)  ==> clonar branches remotas
-git checkout "nome da branch" ===> muda para outra branch (main, html, css)
-git merge "nome_da_branch"(css/html) ==> executar no main
-sobre o git remote: https://joaoretamero.com.br/git-branches-remotos/
