@@ -1,0 +1,168 @@
+.body {
+    background-color: #ffff;
+    box-sizing: border-box;
+}
+
+/* não alterar tamanho da fonte do html, ela é usada pra unidade REM  */
+html {
+    font-size: 10px;
+}
+
+/*INÍCIO DO HEADER */
+
+/* tamanho da logo */
+.header-logo {
+    width: 25rem;
+}
+
+/* animação degrade do background */
+.bg-azul-claro-degrade {
+    background: linear-gradient(to right, #36d3db, #a0eaee, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db);
+    animation: gradient 40s ease infinite;
+    background-size: 200%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position-x: -50px;
+    }
+
+    50% {
+        background-position-x: 2000px;
+    }
+
+    100% {
+        background-position-x: -50px;
+    }
+
+}
+
+
+.bg-azul-escuro {
+    background-color: #263A8B !important;
+}
+
+.dropdown-menu {
+    border-radius: 15px !important;
+    
+}
+
+.menu-dropdown-item {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.menu-dropdown-item:hover {
+    color: #263A8B !important;
+    background-color: white !important;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.menu-link a {
+    color: #263A8B;
+    font-size: 1.7rem;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-menu-hover:hover {
+    color: white !important;
+}
+
+.menu-link li {
+    margin: 20px;
+}
+
+.bt-destaque-escuro a {
+    color: white;
+    font-weight: 500;
+}
+
+.bt-destaque-escuro a:hover {
+    color: #263A8B;
+
+}
+
+.bt-destaque-escuro {
+    background-color: #263A8B;
+    border: #263A8B solid 3px;
+    border-radius: 25px;
+
+
+}
+
+
+.bt-destaque-escuro:hover {
+    background-color: #36d3db;
+
+}
+
+.bt-destaque-borda {
+    border: #263A8B solid 3px;
+    border-radius: 20px;
+
+}
+
+.bt-destaque-borda:hover {
+    background-color: #263A8B;
+}
+
+.bt-destaque-borda a:hover {
+    color: white;
+}
+
+/* FIM DO HEADER */
+
+/* Sessão de boas vindas */
+
+.boas-vindas {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.boas-vindas h1{
+    margin: 3.4px;
+    font-size: 4rem;
+}
+
+#boas-vindas-traveller {
+    color: #263A8B;
+}
+
+
+.search {
+    font-family:'Montserrat', sans-serif ;
+    font-size: larger;
+
+}
+
+.destino-search {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 20px;
+
+}
+
+.destino {
+    width: 67rem;
+    height: 35px;
+    padding: 10px;
+    border: #36d3db solid 2px;
+    border-radius: 10px;
+
+
+}
+
+#btnBusca {
+    width: 67rem;
+    height: 35px;
+    border: none;
+    background-color: #263A8B;
+    border-radius: 10px ;
+    margin-top: 5px;
+}
