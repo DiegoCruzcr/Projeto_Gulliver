@@ -2,7 +2,7 @@ package br.com.gulliver.beans;
 
 import java.util.ArrayList;
 
-public class PontoTuristico extends Usuario{
+public class PontoTuristico{
 	private int Id;
 	private String Descricao;
 	private ArrayList<String> EnderecoLista;
@@ -35,6 +35,10 @@ public class PontoTuristico extends Usuario{
 	public void setEnderecoLista(ArrayList<String> endereco) {
 		EnderecoLista = endereco;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "PontoTuristico [Id=" + Id + ", Descricao=" + Descricao + ", EnderecoLista=" + EnderecoLista + "]";
+	}
 	
 }
