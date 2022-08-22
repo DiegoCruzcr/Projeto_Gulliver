@@ -6,14 +6,16 @@ public class Usuario {
 	private String sobrenome;
 	private int idade;
 	private String email;
+	private PontoTuristico pontoTuristico;
 	
-	public Usuario(int id, String nome, String sobrenome, int idade, String email) {
+	public Usuario(int id, String nome, String sobrenome, int idade, String email, PontoTuristico pontoTuristico) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.idade = idade;
 		this.email = email;
+		this.pontoTuristico = pontoTuristico;
 	}
 	
 	public Usuario() {
@@ -40,6 +42,9 @@ public class Usuario {
 	public int getIdade() {
 		return idade;
 	}
+	public PontoTuristico getPontoTuristico() {
+		return pontoTuristico;
+	}
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
@@ -48,6 +53,9 @@ public class Usuario {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	public void setPontoTuristico(PontoTuristico pontoTuristico) {
+		this.pontoTuristico = pontoTuristico;
 	}
 	
 }
