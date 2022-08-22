@@ -12,7 +12,7 @@ public class test {
 		list.add("cc");
 		PontoTuristico p1 = new PontoTuristico(1, "dddd", list);
 		System.out.println(p1.getEndereco());
-		Usuario user = new Usuario(1, "nome", "sobre", 18, "email", p1);
+		Usuario user = new Usuario(1, "nome", "sobre", 18, "email", p1, null);
 		System.out.println(user.getPontoTuristico());
 	}
 

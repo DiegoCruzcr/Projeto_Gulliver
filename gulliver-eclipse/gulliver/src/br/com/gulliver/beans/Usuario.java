@@ -7,8 +7,9 @@ public class Usuario {
 	private int idade;
 	private String email;
 	private PontoTuristico pontoTuristico;
+	private Hospedagem hospedagem;
 	
-	public Usuario(int id, String nome, String sobrenome, int idade, String email, PontoTuristico pontoTuristico) {
+	public Usuario(int id, String nome, String sobrenome, int idade, String email, PontoTuristico pontoTuristico, Hospedagem hospedagem) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -16,6 +17,7 @@ public class Usuario {
 		this.idade = idade;
 		this.email = email;
 		this.pontoTuristico = pontoTuristico;
+		this.setHospedagem(hospedagem);
 	}
 	
 	public Usuario() {
@@ -57,5 +59,15 @@ public class Usuario {
 	public void setPontoTuristico(PontoTuristico pontoTuristico) {
 		this.pontoTuristico = pontoTuristico;
 	}
+
+	public Hospedagem getHospedagem() {
+		return hospedagem;
+	}
+
+	public void setHospedagem(Hospedagem hospedagem) {
+		this.hospedagem = hospedagem;
+	}
+
+	
 	
 }
