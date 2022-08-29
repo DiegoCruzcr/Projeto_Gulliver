@@ -145,7 +145,6 @@ html {
     flex-direction: column;
     align-items:center;
     margin-top: 20px;
-
 }
 
 
@@ -155,8 +154,7 @@ html {
     padding: 10px;
     border: #36d3db solid 2px;
     border-radius: 10px;
-
-
+    max-width: 100%;
 }
 
 #btnBusca {
@@ -169,5 +167,10 @@ html {
     color: white;
     font-weight: 900;
     font-size: 2rem;
-    font-family:    font-family:'Montserrat', sans-serif ;
+    font-family: 'Montserrat', sans-serif ;
+    max-width: 100%;
+}
+
+.intro div{
+    text-align: center;
 }
