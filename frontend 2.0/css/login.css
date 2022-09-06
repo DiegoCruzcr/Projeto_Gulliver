@@ -1,0 +1,76 @@
+body {
+    background-color: #5FD2D8 !important;
+}
+
+.login {
+    display:flex ;
+    flex-direction: column;
+}
+
+#logo-login{
+    width: 30rem;
+    align-self: center;
+}
+
+.janela-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-branco {
+    background-color: white;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: #5FD2D8;
+    padding: 0px 210px 7px 210px;
+    border-bottom: #5FD2D8 solid 2px;
+   
+}
+
+h4 {
+    font-size: 30px;
+    color: #5FD2D8;
+
+
+}
+
+h5 {
+    font-family:'Montserrat', sans-serif;
+}
+
+
+
+.search {
+    font-family:'Montserrat', sans-serif ;
+   
+
+}
+
+.search-text {
+    border: none;
+    margin: 5px;
+}
+
+.email {
+    border: #36d3db solid 2px;
+    border-radius: 10px;
+
+
+}
+
+#btnBusca {
+    width: 40rem;
+    background-color: #263A8B;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    font-size: large;
+
+}
