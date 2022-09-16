@@ -114,6 +114,10 @@ html {
     color: white;
 }
 
+.nav-item {
+    max-width: 150px;
+}
+
 /* FIM DO HEADER */
 
 /* Sessão de boas vindas */
@@ -173,4 +177,77 @@ html {
 
 .intro div{
     text-align: center;
+    position: relative;
+    transform: scaleX(-1000px);
+}
+
+ .intro img {
+   
+    transition-duration:  0.7s;
+
+ }
+.intro-1 {
+    position: relative;
+    left: 170px;
+    top: 20px;
+    width: 40rem;
+    
+}
+
+.intro-1:hover {
+    transform: scale(110%)
+}
+
+.intro-2 {
+    position: relative;
+    width: 40rem;
+    z-index: 2;
+}
+
+.intro-2:hover {
+    transform: scale(110%)
+
+}
+
+.intro-3 {
+    position: relative;
+    left: -170px;
+    top: 20px;
+  
+    width: 40rem;
+}
+.intro-3:hover {
+    transform: scale(110%)
+}
+
+
+/* inicio rodapé */
+
+footer {
+    background: linear-gradient(to right, #36d3db, #a0eaee, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db);
+    margin-top: 50px;
+   width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.footer-logo {
+    margin: 15px;
+}
+
+
+.footer-logo h1{
+    border-bottom: 2px solid #263A8B;
+    max-width: fit-content;
+    color: #263A8B;
+    
+}
+
+.footer-logo p{
+    color: #263A8B;
+}
+
+.footer-icones img {
+    width: 30px;
 }
