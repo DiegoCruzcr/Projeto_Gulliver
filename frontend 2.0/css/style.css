@@ -283,6 +283,13 @@ footer .links {
     justify-content: space-between;
 }
 
+.hoteis .btn {
+    background-color: #263a8bab !important;
+    border: none;
+    width: 150px;
+    border-radius: 20px;
+}
+
 /* Estrelas */
 
 .estrelas input[type=radio] {
