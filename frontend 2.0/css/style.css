@@ -251,3 +251,26 @@ footer {
 .footer-icones img {
     width: 30px;
 }
+
+/* Hospedagem */
+
+.img-card {
+    max-width: 90%;
+    margin: 10px 10px;
+}
+
+/* Estrelas */
+
+.estrelas input[type=radio] {
+    display: none;
+
+}
+
+.estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+}
