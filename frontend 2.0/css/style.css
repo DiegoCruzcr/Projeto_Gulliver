@@ -1,21 +1,35 @@
-.body {
-    background-color: #ffff;
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* não alterar tamanho da fonte do html, ela é usada pra unidade REM  */
-html {
-    font-size: 10px;
+.body {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
 }
 
 /*INÍCIO DO HEADER */
 
+header {
+    width: 100%;
+}
+
 /* tamanho da logo */
+
 .header-logo {
-    width: 25rem;
+    width: 250px;
 }
 
 /* animação degrade do background */
+
 .bg-azul-claro-degrade {
     background: linear-gradient(to right, #36d3db, #a0eaee, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db);
     animation: gradient 40s ease infinite;
@@ -34,9 +48,7 @@ html {
     100% {
         background-position-x: -50px;
     }
-
 }
-
 
 .bg-azul-escuro {
     background-color: #263A8B !important;
@@ -44,7 +56,6 @@ html {
 
 .dropdown-menu {
     border-radius: 15px !important;
-    
 }
 
 .menu-dropdown-item {
@@ -63,7 +74,7 @@ html {
 
 .menu-link a {
     color: #263A8B;
-    font-size: 1.7rem;
+    font-size: 20px;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
 }
@@ -76,6 +87,10 @@ html {
     margin: 20px;
 }
 
+.bt-destaque {
+    font-size: 15px;
+}
+
 .bt-destaque-escuro a {
     color: white;
     font-weight: 500;
@@ -83,27 +98,21 @@ html {
 
 .bt-destaque-escuro a:hover {
     color: #263A8B;
-
 }
 
 .bt-destaque-escuro {
     background-color: #263A8B;
     border: #263A8B solid 3px;
     border-radius: 25px;
-
-
 }
-
 
 .bt-destaque-escuro:hover {
     background-color: #36d3db;
-
 }
 
 .bt-destaque-borda {
     border: #263A8B solid 3px;
-    border-radius: 20px;
-
+    border-radius: 25px;
 }
 
 .bt-destaque-borda:hover {
@@ -130,18 +139,16 @@ html {
 
 .boas-vindas h1{
     margin: 3.4px;
-    font-size: 4rem;
+    font-size: 35px;
 }
 
 #boas-vindas-traveller {
     color: #263A8B;
 }
 
-
 .search {
     font-family:'Montserrat', sans-serif ;
     font-size: larger;
-
 }
 
 .destino-search {
@@ -151,10 +158,9 @@ html {
     margin-top: 20px;
 }
 
-
 .destino {
     width: 67rem;
-    height: 35px;
+    height: 45px;
     padding: 10px;
     border: #36d3db solid 2px;
     border-radius: 10px;
@@ -170,7 +176,7 @@ html {
     margin-top: 5px;
     color: white;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif ;
     max-width: 100%;
 }
@@ -178,20 +184,18 @@ html {
 .intro div{
     text-align: center;
     position: relative;
-    transform: scaleX(-1000px);
+    transform: scaleX(-90px);
 }
 
- .intro img {
-   
+.intro img {
     transition-duration:  0.7s;
+}
 
- }
 .intro-1 {
     position: relative;
-    left: 170px;
-    top: 20px;
-    width: 40rem;
-    
+    left: 100px;
+    top: 25px;
+    width: 20rem;
 }
 
 .intro-1:hover {
@@ -200,48 +204,45 @@ html {
 
 .intro-2 {
     position: relative;
-    width: 40rem;
+    width: 25rem;
     z-index: 2;
 }
 
 .intro-2:hover {
     transform: scale(110%)
-
 }
 
 .intro-3 {
     position: relative;
-    left: -170px;
-    top: 20px;
-  
-    width: 40rem;
+    left: -100px;
+    top: 25px;
+    width: 20rem;
 }
+
 .intro-3:hover {
     transform: scale(110%)
 }
 
-
 /* inicio rodapé */
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
 
 footer {
     background: linear-gradient(to right, #36d3db, #a0eaee, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db);
-    margin-top: 50px;
-   width: 100%;
+    width: 100%;
     padding: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    margin-top: 2rem;
 }
+
 .footer-logo {
     margin: 15px;
 }
 
-
 .footer-logo h1{
     border-bottom: 2px solid #263A8B;
-    max-width: fit-content;
     color: #263A8B;
-    
 }
 
 .footer-logo p{
@@ -259,11 +260,16 @@ footer {
     margin: 10px 10px;
 }
 
+.hoteis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* Estrelas */
 
 .estrelas input[type=radio] {
     display: none;
-
 }
 
 .estrelas label i.fa:before {
