@@ -193,13 +193,13 @@ header {
 
 .intro-1 {
     position: relative;
-    left: 100px;
+    left: 110px;
     top: 25px;
-    width: 20rem;
+    width: 25rem;
 }
 
 .intro-1:hover {
-    transform: scale(110%)
+    transform: scale(110%);
 }
 
 .intro-2 {
@@ -214,9 +214,9 @@ header {
 
 .intro-3 {
     position: relative;
-    left: -100px;
+    left: -110px;
     top: 25px;
-    width: 20rem;
+    width: 25rem;
 }
 
 .intro-3:hover {
@@ -230,10 +230,12 @@ header {
 }
 
 footer {
-    background: linear-gradient(to right, #36d3db, #a0eaee, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db);
     width: 100%;
     padding: 10px;
     margin-top: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .footer-logo {
