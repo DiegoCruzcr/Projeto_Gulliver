@@ -223,6 +223,49 @@ header {
     transform: scale(110%)
 }
 
+/* Serviços */
+
+.titulo {
+    display: flex;
+    align-items: center;
+    margin: 50px 20px;
+}
+
+.titulo h1{
+    color: #263A8B;
+    padding: 20px;
+}
+
+.titulo hr{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: #263A8B;
+    margin-bottom: 50px;
+    opacity: 100;
+}
+
+.nosso-card {
+    border-top: 5px #263a82 solid !important;
+    border-radius: 16px !important;
+    box-shadow: 0px 5px 5px #0000004b;
+    cursor: pointer;
+    transition-duration:  0.7s;
+}
+
+.nosso-card:hover {
+    transform: scale(110%);
+}
+
+.icone-card {
+    width: 8rem;
+}
+
+.card-img-top {
+
+}
+
 /* inicio rodapé */
 
 .row {
