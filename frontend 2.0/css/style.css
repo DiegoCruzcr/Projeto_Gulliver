@@ -193,13 +193,13 @@ header {
 
 .intro-1 {
     position: relative;
-    left: 100px;
+    left: 110px;
     top: 25px;
-    width: 20rem;
+    width: 25rem;
 }
 
 .intro-1:hover {
-    transform: scale(110%)
+    transform: scale(110%);
 }
 
 .intro-2 {
@@ -214,9 +214,9 @@ header {
 
 .intro-3 {
     position: relative;
-    left: -100px;
+    left: -110px;
     top: 25px;
-    width: 20rem;
+    width: 25rem;
 }
 
 .intro-3:hover {
@@ -230,10 +230,10 @@ header {
 }
 
 footer {
-    background: linear-gradient(to right, #36d3db, #a0eaee, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db);
     width: 100%;
     padding: 10px;
     margin-top: 2rem;
+
 }
 
 .footer-logo {
@@ -243,15 +243,20 @@ footer {
 .footer-logo h1{
     border-bottom: 2px solid #263A8B;
     color: #263A8B;
+    width: max-content;
+    margin: auto;
+    font-size: 3.1rem;
 }
 
 .footer-logo p {
     color: #263A8B;
+    margin-top: 5px;
 }
 
 .footer-icones img {
     width: 30px;
 }
+
 
 footer section p {
     color: #263A8B;
@@ -283,10 +288,31 @@ footer .links {
     justify-content: space-between;
 }
 
-.hoteis .btn {
-    background-color: #263a8bab !important;
+.servicos .btn,
+.hoteis .btn,
+.reservar .btn {
+    background: #263A8B;
+    border-radius: 25px;
     border: none;
     width: 150px;
+}
+
+/* Reservar */
+
+.reservar .card .tel {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
+.reservar .card img {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+.comentario {
+    background-color: #D9D9D9;
     border-radius: 20px;
 }
 
@@ -303,18 +329,4 @@ footer .links {
 
 .estrelas input[type=radio]:checked ~ label i.fa:before {
     color: #CCC;
-}
-
-/* Reserva de hotel */
-.card_max_widht {
-    display: block;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.card_max_widht .btn {
-    background-color: #263a8bab !important;
-    border: none;
-    width: 150px;
-    border-radius: 20px;
 }
