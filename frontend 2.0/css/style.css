@@ -288,18 +288,18 @@ footer .links {
     justify-content: space-between;
 }
 
+.servicos .btn,
 .hoteis .btn,
 .reservar .btn {
-    background-color: #263a8bab !important;
-    color: #fff;
+    background: #263A8B;
+    border-radius: 25px;
     border: none;
     width: 150px;
-    border-radius: 20px;
 }
 
 /* Reservar */
 
-.reservar .card a {
+.reservar .card .tel {
     text-decoration: none;
     color: #000;
     margin: 0;
@@ -309,6 +309,11 @@ footer .links {
     height: 100%;
     width: 90%;
     margin: auto;
+}
+
+.comentario {
+    background-color: #D9D9D9;
+    border-radius: 20px;
 }
 
 /* Estrelas */
