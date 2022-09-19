@@ -311,3 +311,17 @@ footer .links {
 .estrelas input[type=radio]:checked ~ label i.fa:before {
     color: #CCC;
 }
+
+/* Reserva de hotel */
+.card_max_widht {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_max_widht .btn {
+    background-color: #263a8bab !important;
+    border: none;
+    width: 150px;
+    border-radius: 20px;
+}
