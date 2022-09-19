@@ -275,8 +275,6 @@ footer .links {
    margin-top: 30px;
 }
 
-
-
 /* Hospedagem */
 
 .img-card {
@@ -290,11 +288,26 @@ footer .links {
     justify-content: space-between;
 }
 
-.hoteis .btn {
+.hoteis .btn,
+.reservar .btn {
     background-color: #263a8bab !important;
     border: none;
     width: 150px;
     border-radius: 20px;
+}
+
+/* Reservar */
+
+.reservar .card a {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
+.reservar .card img {
+    height: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 /* Estrelas */
@@ -310,18 +323,4 @@ footer .links {
 
 .estrelas input[type=radio]:checked ~ label i.fa:before {
     color: #CCC;
-}
-
-/* Reserva de hotel */
-.card_max_widht {
-    display: block;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.card_max_widht .btn {
-    background-color: #263a8bab !important;
-    border: none;
-    width: 150px;
-    border-radius: 20px;
 }
