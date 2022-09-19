@@ -291,6 +291,7 @@ footer .links {
 .hoteis .btn,
 .reservar .btn {
     background-color: #263a8bab !important;
+    color: #fff;
     border: none;
     width: 150px;
     border-radius: 20px;
