@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script async defer src="https://maps.google.com/maps/api/js?key=api_key&callback=initMap&v=weekly"></script>
+    <script async defer src="https://maps.google.com/maps/api/js?key=AIzaSyCO7cjgtY8a8TLK8XCxVChOx0VrrFmf4jM&callback=initMap&v=weekly"></script>
 </head>
 
 <body>
@@ -78,13 +78,15 @@
 
     <main>
         <p class="text-center fs-3">Descubra o melhor local para se hospedar<br />durante a sua viagem</p>
-        <div class="container">
+        <div class="container-lg">
             <h4>São Paulo</h4>
-            <div class="hoteis">
+            <div class="card_max_widht">
                 <div class="card rounded" style="width: 20rem;">
                     <img src="../images/image 23.svg" class="card-img-top img-card" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Meliá Ibirapuera</h5>
+                        <h5 class="card-title">Meliá Ibirapuera</h5>
+                        <h6 class="card-subtitle">(11) 3509-8701</h6>
+                        <p class="card-text text">Av.ibirapuera, 2534 - Indianópolis, São Paulo - SP, 04028-002</p>
                         <div class="d-flex justify-content-around align-items-center">
                             <div class="estrelas">
                                 <input type="radio" class="cm_star-empty" name="fb" value="" checked />
@@ -99,12 +101,13 @@
                                 <label for="cm_star-5"><i class="fa"></i></label>
                                 <input type="radio" id="cm_star-5" name="fb" value="5" />
                             </div>
-                            <a href="#" class="btn btn-primary">1.6km</a>
+                            <p id="msg"></p>
                             <a href="#" class="btn btn-primary">Reservar</a>
                         </div>
                     </div>
                 </div>
         <div id="map" style="width:100%;height:300px;background:green;display:block;"></div>
+        <p id="msg"></p>
     </main>
 
     <footer>
