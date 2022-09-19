@@ -233,9 +233,7 @@ footer {
     width: 100%;
     padding: 10px;
     margin-top: 2rem;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+
 }
 
 .footer-logo {
@@ -245,15 +243,20 @@ footer {
 .footer-logo h1{
     border-bottom: 2px solid #263A8B;
     color: #263A8B;
+    width: max-content;
+    margin: auto;
+    font-size: 3.1rem;
 }
 
 .footer-logo p {
     color: #263A8B;
+    margin-top: 5px;
 }
 
 .footer-icones img {
     width: 30px;
 }
+
 
 footer section p {
     color: #263A8B;
@@ -271,6 +274,8 @@ footer section p a {
 footer .links {
    margin-top: 30px;
 }
+
+
 
 /* Hospedagem */
 
