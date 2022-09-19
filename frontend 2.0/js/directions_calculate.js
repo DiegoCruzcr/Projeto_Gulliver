@@ -1,6 +1,6 @@
-console.log("AAAAAAA")
+// console.log("AAAAAAA")
 function CalculateDistanceBetweenAddress() {
-    console.log("bbbbb")
+    // console.log("bbbbb")
     // var destinationFrom = document.getElementById();
     // var destinationTo = document.getElementById();
     var distancematrix = document.getElementById("distancematrix");
