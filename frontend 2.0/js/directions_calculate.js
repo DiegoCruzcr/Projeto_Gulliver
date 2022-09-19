@@ -8,10 +8,9 @@ function CalculateDistanceBetweenAddress() {
     // var axios = require('axios');
 
     // axios.get({
-    //     url: 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=Washington%2C%20DC&destinations=New%20York%20City%2C%20NY&units=imperial&key=AIzaSyCO7cjgtY8a8TLK8XCxVChOx0VrrFmf4jM',
-    //     method: 'get'
+    //     url: 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=Washington%2C%20DC&destinations=New%20York%20City%2C%20NY&units=imperial&key=API_KEY'
     //   });
-    var url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=Washington%2C%20DC&destinations=New%20York%20City%2C%20NY&units=imperial&key=AIzaSyCO7cjgtY8a8TLK8XCxVChOx0VrrFmf4jM";
+    var url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=Washington%2C%20DC&destinations=New%20York%20City%2C%20NY&units=imperial&key=api_key";
     var headers = {
         headers: {
             'Access-Control-Allow-Origin': '*',
@@ -23,7 +22,7 @@ function CalculateDistanceBetweenAddress() {
     console.log(req);
     // var config = {
     //   method: 'get',
-    //   url: 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=Washington%2C%20DC&destinations=New%20York%20City%2C%20NY&units=imperial&key=AIzaSyCO7cjgtY8a8TLK8XCxVChOx0VrrFmf4jM',
+    //   url: 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=Washington%2C%20DC&destinations=New%20York%20City%2C%20NY&units=imperial&key=api_key',
     //   headers: { }
     // };
     // axios(config)
