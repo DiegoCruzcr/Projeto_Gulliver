@@ -25,7 +25,7 @@ header {
 /* tamanho da logo */
 
 .header-logo {
-    width: 250px;
+    width: 23rem;
 }
 
 /* animação degrade do background */
@@ -74,7 +74,7 @@ header {
 
 .menu-link a {
     color: #263A8B;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
 }
@@ -252,19 +252,20 @@ header {
     box-shadow: 0px 5px 5px #0000004b;
     cursor: pointer;
     transition-duration:  0.7s;
+   
 }
 
 .nosso-card:hover {
     transform: scale(110%);
 }
 
+
+
 .icone-card {
     width: 8rem;
 }
 
-.card-img-top {
 
-}
 
 /* inicio rodapé */
 
@@ -372,4 +373,93 @@ footer .links {
 
 .estrelas input[type=radio]:checked ~ label i.fa:before {
     color: #CCC;
+}
+
+/*Responsividade*/
+
+@media (max-width: 1300px) {
+        html {
+        font-size: 12px
+    }
+}
+
+@media (max-width: 1100px) {
+        html {
+        font-size: 10px
+    }
+}
+
+@media (max-width: 1000px) {
+        html {
+        font-size: 9px
+    }
+
+    .titulo{
+        margin: 0px;
+    }
+
+    .nosso-card {
+        width: 55rem !important;
+
+         margin-top: 50px;
+    }
+
+    .intro div{
+    display: flex;
+    flex-direction: column;
+    transform: scaleX(-90px);
+    align-items: center;
+    top: -100px;
+}
+
+.intro img {
+    transition-duration:  0.7s;
+}
+
+.intro-1 {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    width: 70rem;
+    z-index: 3;
+}
+
+.intro-1:hover {
+    transform: scale(110%);
+    
+}
+
+.intro-2 {
+    position: relative;
+    width: 60rem;
+    top: 50px;
+    
+}
+
+.intro-2:hover {
+    transform: scale(110%)
+}
+
+.intro-3 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 50rem;
+}
+
+.intro-3:hover {
+    transform: scale(110%)
+}
+}
+
+@media (max-width: 700px) {
+        html {
+        font-size: 7px
+    }
+
+    .nosso-card {
+        width: 43rem !important;
+
+         margin-top: 50px;
+    }
 }
