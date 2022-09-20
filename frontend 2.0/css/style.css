@@ -195,7 +195,7 @@ header {
     position: relative;
     left: 110px;
     top: 25px;
-    width: 25rem;
+    width: 30rem;
 }
 
 .intro-1:hover {
@@ -204,7 +204,7 @@ header {
 
 .intro-2 {
     position: relative;
-    width: 25rem;
+    width: 30rem;
     z-index: 2;
 }
 
@@ -216,7 +216,7 @@ header {
     position: relative;
     left: -110px;
     top: 25px;
-    width: 25rem;
+    width: 30rem;
 }
 
 .intro-3:hover {
@@ -377,21 +377,27 @@ footer .links {
 
 /*Responsividade*/
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
         html {
         font-size: 12px
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
         html {
         font-size: 10px
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
         html {
         font-size: 9px
+    }
+}
+
+@media (max-width: 1000px) {
+        html {
+        font-size: 15px
     }
 
     .titulo{
@@ -399,10 +405,18 @@ footer .links {
     }
 
     .nosso-card {
-        width: 55rem !important;
-
          margin-top: 50px;
     }
+
+    .destino {
+    width: 49rem;
+
+}
+
+#btnBusca {
+    width: 49rem;
+
+}
 
     .intro div{
     display: flex;
@@ -420,7 +434,7 @@ footer .links {
     position: relative;
     left: 0px;
     top: 100px;
-    width: 70rem;
+    width: 50rem;
     z-index: 3;
 }
 
@@ -431,7 +445,7 @@ footer .links {
 
 .intro-2 {
     position: relative;
-    width: 60rem;
+    width: 40rem;
     top: 50px;
     
 }
@@ -444,7 +458,7 @@ footer .links {
     position: relative;
     left: 0px;
     top: 0px;
-    width: 50rem;
+    width: 30rem;
 }
 
 .intro-3:hover {
@@ -452,13 +466,47 @@ footer .links {
 }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
+        html {
+        font-size: 11px
+    }
+
+    .nosso-card {
+
+         margin-top: 50px;
+    }
+    .boas-vindas h1{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 550px) {
+        html {
+        font-size: 9px
+    }
+
+    .nosso-card {
+
+         margin-top: 50px;
+    }
+}
+
+@media (max-width: 500px) {
         html {
         font-size: 7px
     }
 
     .nosso-card {
-        width: 43rem !important;
+
+         margin-top: 50px;
+    }
+
+    @media (max-width: 300px) {
+        html {
+        font-size: 5px
+    }
+
+    .nosso-card {
 
          margin-top: 50px;
     }
