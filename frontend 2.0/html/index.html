@@ -23,7 +23,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-azul-claro-degrade">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img class="header-logo" src="/icons/Traveller-logo.svg"
+        <a class="navbar-brand" href="index.html"><img class="header-logo" src="/icons/traveller-logo.svg"
             alt="Traveller"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,7 +100,8 @@
       <section class="row container-fluid">
       
       <div  class="col col-xs-4">
-      <div class="card  nosso-card mx-auto" style="width: 25rem;">
+        
+      <div class="card  nosso-card mx-auto" id="go-hospedagem" style="width: 25rem;">
         <h4 class="text-center m-4">Hospedagem</h4>
         <img src="/icons/prédios.svg" class="icone-card mx-auto" alt="...">
         <div class="card-body">
@@ -108,6 +109,7 @@
         </div>
       </div>
       </div>
+
 
       <div class="col col-xs-4">
       <div class="card nosso-card  mx-auto" style="width: 25rem;">
@@ -216,6 +218,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
+    
+    <!-- <script src="/frontend 2.0/js/usability.js"></script> -->
+
+    <script>
+      document.getElementById("go-hospedagem").onclick = function() {
+        window.location.href = "http://127.0.0.1:5503/frontend%202.0/html/hospedagem.html"};
+      ;
+  </script>
 </body>
 
 </html>
