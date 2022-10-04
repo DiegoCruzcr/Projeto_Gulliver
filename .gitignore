@@ -1,3 +1,6 @@
 /.metadata/
 /.vscode/
 /node_modules/
+/.class/
+/.settings/
+/build/
