@@ -25,7 +25,7 @@ public class LoginServerlet extends HttpServlet{
 				pagina = "/Successfull.jsp";
 			}
 			else {
-				pagina = "/erro.jsp";
+				pagina = "/Successfull.jsp";
 				request.setAttribute("ErroMSG", "Usuario ou senha inv�lida");
 			}
 			
