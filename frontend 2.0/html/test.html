@@ -1,0 +1,23 @@
+<!DOCTYPE html>  
+<html>  
+<head>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>  
+<h2>Google Map Example</h2> 
+<div id="map" class="map"></div>  
+<script>  
+function Map123() {  
+    const center = {lat: 40.774102, lng: -73.971734};
+    const options = {zoom: 15, scaleControl: true, center: center};
+    console.log(document.getElementById("map"));
+    var map = new google.maps.Map(document.getElementById("map"), options);
+    const addressFrom = {lat: 40.7767644, lng: -73.9761399};
+    const addressTo = {lat: 40.771209, lng: -73.9673991};
+    var markerToAddresFrom = new google.maps.Marker({position: addressFrom, map: map});
+    var markerToAddresTo = new google.maps.Marker({position: addressTo, map: map});
+}  
+</script>  
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO7cjgtY8a8TLK8XCxVChOx0VrrFmf4jM&callback=Map123"></script>  
+</body>  
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: #5FD2D8 !important;
+}
+
+#logo-login{
+    width: 17rem;
+    align-self: center;
+}
+
+.fundo-branco {
+    background-color: whitesmoke;
+    padding: 35px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.fundo-branco .btn-cadastro,
+.fundo-branco .btn-login {
+    background-color: #263A8B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: auto;
+    height: 40px;
+}
+
+.fundo-branco .btn-cadastro:hover,
+.fundo-branco .btn-login:hover {
+    background-color: #384ea7;
+    transition: 5ms;
+}
+
+.cadastro,
+.login {
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.cadastro-destaque,
+.login-destaque {
+    color: #263A8B;
+    text-decoration: none;
+    font-weight: bold;
+}

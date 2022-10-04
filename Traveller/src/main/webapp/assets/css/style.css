@@ -1,0 +1,513 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+
+/*INÍCIO DO HEADER */
+
+header {
+    width: 100%;
+}
+
+/* tamanho da logo */
+
+.header-logo {
+    width: 23rem;
+}
+
+/* animação degrade do background */
+
+.bg-azul-claro-degrade {
+    background: linear-gradient(to right, #36d3db, #a0eaee, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db, #36d3db);
+    animation: gradient 40s ease infinite;
+    background-size: 200%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position-x: -50px;
+    }
+
+    50% {
+        background-position-x: 2000px;
+    }
+
+    100% {
+        background-position-x: -50px;
+    }
+}
+
+.bg-azul-escuro {
+    background-color: #263A8B !important;
+}
+
+.dropdown-menu {
+    border-radius: 15px !important;
+}
+
+.menu-dropdown-item {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.menu-dropdown-item:hover {
+    color: #263A8B !important;
+    background-color: white !important;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.menu-link a {
+    color: #263A8B;
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-menu-hover:hover {
+    color: white !important;
+}
+
+.menu-link li {
+    margin: 20px;
+}
+
+.bt-destaque {
+    font-size: 15px;
+}
+
+.bt-destaque-escuro a {
+    color: white;
+    font-weight: 500;
+}
+
+.bt-destaque-escuro a:hover {
+    color: #263A8B;
+}
+
+.bt-destaque-escuro {
+    background-color: #263A8B;
+    border: #263A8B solid 3px;
+    border-radius: 25px;
+}
+
+.bt-destaque-escuro:hover {
+    background-color: #36d3db;
+}
+
+.bt-destaque-borda {
+    border: #263A8B solid 3px;
+    border-radius: 25px;
+}
+
+.bt-destaque-borda:hover {
+    background-color: #263A8B;
+}
+
+.bt-destaque-borda a:hover {
+    color: white;
+}
+
+.nav-item {
+    max-width: 150px;
+}
+
+/* FIM DO HEADER */
+
+/* Sessão de boas vindas */
+
+.boas-vindas {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.boas-vindas h1{
+    margin: 3.4px;
+    font-size: 35px;
+}
+
+#boas-vindas-traveller {
+    color: #263A8B;
+}
+
+.search {
+    font-family:'Montserrat', sans-serif ;
+    font-size: larger;
+}
+
+.destino-search {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 20px;
+}
+
+.destino {
+    width: 67rem;
+    height: 45px;
+    padding: 10px;
+    border: #36d3db solid 2px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#btnBusca {
+    width: 67rem;
+    height: 35px;
+    border: none;
+    background-color: #263A8B;
+    border-radius: 10px ;
+    margin-top: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif ;
+    max-width: 100%;
+}
+
+.intro div{
+    text-align: center;
+    position: relative;
+    transform: scaleX(-90px);
+}
+
+.intro img {
+    transition-duration:  0.7s;
+}
+
+.intro-1 {
+    position: relative;
+    left: 110px;
+    top: 25px;
+    width: 30rem;
+}
+
+.intro-1:hover {
+    transform: scale(110%);
+}
+
+.intro-2 {
+    position: relative;
+    width: 30rem;
+    z-index: 2;
+}
+
+.intro-2:hover {
+    transform: scale(110%)
+}
+
+.intro-3 {
+    position: relative;
+    left: -110px;
+    top: 25px;
+    width: 30rem;
+}
+
+.intro-3:hover {
+    transform: scale(110%)
+}
+
+/* Serviços */
+
+.titulo {
+    display: flex;
+    align-items: center;
+    margin: 50px 20px;
+}
+
+.titulo h1{
+    color: #263A8B;
+    padding: 20px;
+}
+
+.titulo hr{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: #263A8B;
+    margin-bottom: 50px;
+    opacity: 100;
+}
+
+.nosso-card {
+    border-top: 5px #263a82 solid !important;
+    border-radius: 16px !important;
+    box-shadow: 0px 5px 5px #0000004b;
+    cursor: pointer;
+    transition-duration:  0.7s;
+   
+}
+
+.nosso-card:hover {
+    transform: scale(110%);
+}
+
+
+
+.icone-card {
+    width: 8rem;
+}
+
+
+
+/* inicio rodapé */
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    margin-top: 2rem;
+
+}
+
+.footer-logo {
+    margin: 15px;
+}
+
+.footer-logo h1{
+    border-bottom: 2px solid #263A8B;
+    color: #263A8B;
+    width: max-content;
+    margin: auto;
+    font-size: 3.1rem;
+}
+
+.footer-logo p {
+    color: #263A8B;
+    margin-top: 5px;
+}
+
+.footer-icones img {
+    width: 30px;
+}
+
+
+footer section p {
+    color: #263A8B;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 8px;
+}
+
+footer section p a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #263A8B;
+}
+
+footer .links {
+   margin-top: 30px;
+}
+
+/* Hospedagem */
+
+.img-card {
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+.hoteis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicos .btn,
+.hoteis .btn,
+.reservar .btn {
+    background: #263A8B;
+    border-radius: 25px;
+    border: none;
+    width: 150px;
+}
+
+/* Reservar */
+
+.reservar .card .tel {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
+.reservar .card img {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+.comentario {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+/* Estrelas */
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+}
+
+/*Responsividade*/
+
+@media (max-width: 1500px) {
+        html {
+        font-size: 12px
+    }
+}
+
+@media (max-width: 1300px) {
+        html {
+        font-size: 10px
+    }
+}
+
+@media (max-width: 1100px) {
+        html {
+        font-size: 9px
+    }
+}
+
+@media (max-width: 1000px) {
+        html {
+        font-size: 15px
+    }
+
+    .titulo{
+        margin: 0px;
+    }
+
+    .nosso-card {
+         margin-top: 50px;
+    }
+
+    .destino {
+    width: 49rem;
+
+}
+
+#btnBusca {
+    width: 49rem;
+
+}
+
+    .intro div{
+    display: flex;
+    flex-direction: column;
+    transform: scaleX(-90px);
+    align-items: center;
+    top: -100px;
+}
+
+.intro img {
+    transition-duration:  0.7s;
+}
+
+.intro-1 {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    width: 50rem;
+    z-index: 3;
+}
+
+.intro-1:hover {
+    transform: scale(110%);
+    
+}
+
+.intro-2 {
+    position: relative;
+    width: 40rem;
+    top: 50px;
+    
+}
+
+.intro-2:hover {
+    transform: scale(110%)
+}
+
+.intro-3 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 30rem;
+}
+
+.intro-3:hover {
+    transform: scale(110%)
+}
+}
+
+@media (max-width: 750px) {
+        html {
+        font-size: 11px
+    }
+
+    .nosso-card {
+
+         margin-top: 50px;
+    }
+    .boas-vindas h1{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 550px) {
+        html {
+        font-size: 9px
+    }
+
+    .nosso-card {
+
+         margin-top: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+        html {
+        font-size: 7px
+    }
+
+    .nosso-card {
+
+         margin-top: 50px;
+    }
+
+    @media (max-width: 300px) {
+        html {
+        font-size: 5px
+    }
+
+    .nosso-card {
+
+         margin-top: 50px;
+    }
+}
