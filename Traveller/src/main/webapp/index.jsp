@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
   <!-- Nosso CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -21,7 +21,7 @@
 
 <body>
 
-  <!-- Início do header -->
+  <!-- InÃ­cio do header -->
   <header>
     <nav class="navbar navbar-expand-lg bg-azul-claro-degrade">
       <div class="container-fluid">
@@ -35,10 +35,10 @@
         <div class="collapse navbar-collapse menu-link " id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item my-auto">
-              <a class="nav-link text-menu-hover" aria-current="page" href="index.html">In�cio</a>
+              <a class="nav-link text-menu-hover" aria-current="page" href="index.html">Início</a>
             </li>
             <li class="nav-item my-auto">
-              <a class="nav-link text-menu-hover" href="servicos.html">Servi�os</a>
+              <a class="nav-link text-menu-hover" href="servicos.html">Serviços</a>
             </li>
             <li class="nav-item  dropdown my-auto">
               <a class="nav-link dropdown-toggle text-menu-hover" href="#" role="button" data-bs-toggle="dropdown"
@@ -73,7 +73,7 @@
   </header>
   <!-- fim do header -->
 
-  <!-- início do conteúdo principal -->
+  <!-- inÃ­cio do conteÃºdo principal -->
   <main>
     <section class="boas-vindas text-center">
       <h1>Seja um <span id="boas-vindas-traveller">Traveller,</span> escolha seu destino!</h1>
@@ -83,7 +83,7 @@
       <button id="btnBusca">Buscar</button>
     </section>
     <section class="intro">
-      <h3 class="text-center my-5">Se você está buscando roteiros <br /> legais para o seu fim de semana, está no lugar
+      <h3 class="text-center my-5">Se vocÃª estÃ¡ buscando roteiros <br /> legais para o seu fim de semana, estÃ¡ no lugar
         certo!</h3>
       <div>
         <img src="../images/image 20.svg" alt="" class="intro-1">
@@ -95,7 +95,7 @@
     <section>
       <div class="titulo">
       <hr class="linha" width="5%">
-      <h1>Serviços</h1>
+      <h1>ServiÃ§os</h1>
       <hr width="85%">
       </div>
 
@@ -105,7 +105,7 @@
         
       <div class="card  nosso-card mx-auto" id="go-hospedagem" style="width: 35rem;">
         <h4 class="text-center m-4">Hospedagem</h4>
-        <img src="/icons/prédios.svg" class="icone-card mx-auto" alt="...">
+        <img src="/icons/prÃ©dios.svg" class="icone-card mx-auto" alt="...">
         <div class="card-body">
           <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -193,9 +193,9 @@
         </div>
       </div>
       <div class="col-xl-2 links">
-        <p>Sobre nós</p>
+        <p>Sobre nÃ³s</p>
         <p><a href="#">Quem somos?</a></p>
-        <p><a href="#">Missão e Valores</a></p>
+        <p><a href="#">MissÃ£o e Valores</a></p>
       </div>
       <div class="col-xl-2 links">
         <p>Suporte</p>
@@ -210,7 +210,7 @@
       <div class="col-xl-2 links">
         <p>Privacidade</p>
         <p><a href="#">Termos de Uso</a></p>
-        <p><a href="#">Proteção de dados</a></p>
+        <p><a href="#">ProteÃ§Ã£o de dados</a></p>
       </div>
       <p class="text-center mt-2">2022 Traveller, Inc.</p>
     </section>
