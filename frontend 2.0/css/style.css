@@ -343,7 +343,8 @@ footer .links {
 .reservar .btn,
 .entretenimento .btn,
 .carros .btn,
-.gastronomia .btn {
+.gastronomia .btn,
+.noturna .btn {
     background: #263A8B;
     border-radius: 25px;
     border: none;
