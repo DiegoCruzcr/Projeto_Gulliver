@@ -229,18 +229,22 @@ header {
 
 /* Serviços */
 
+.servicos {
+    margin-top: 2rem !important;
+}
+
 .titulo {
     display: flex;
     align-items: center;
     margin: 50px 20px;
 }
 
-.titulo h1{
+.titulo h1 {
     color: #263A8B;
     padding: 20px;
 }
 
-.titulo hr{
+.titulo hr {
     position: relative;
     top: 20px;
     border: none;
@@ -259,17 +263,15 @@ header {
    
 }
 
+/* Não sei do que é */
+
 .nosso-card:hover {
     transform: scale(110%);
 }
 
-
-
 .icone-card {
     width: 8rem;
 }
-
-
 
 /* inicio rodapé */
 
