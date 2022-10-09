@@ -325,15 +325,14 @@ footer .links {
 
 /* Hospedagem */
 
-.img-card {
-    max-width: 90%;
-    margin: 10px auto;
-}
-
 .hoteis {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.hoteis .card {
+    height: 280px;
 }
 
 .card {
@@ -364,7 +363,8 @@ footer .links {
 .historia .card img,
 .parques .card img,
 .noturna .card img,
-.servicos .card img {
+.servicos .card img,
+.img-card {
     height: 100%;
     width: 100%;
 }
