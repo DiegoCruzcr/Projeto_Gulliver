@@ -346,7 +346,8 @@ footer .links {
 .gastronomia .btn,
 .noturna .btn,
 .parques .btn,
-.historia .btn {
+.historia .btn,
+.cultura .btn {
     background: #263A8B;
     border-radius: 25px;
     border: none;
@@ -361,7 +362,8 @@ footer .links {
 /* Entretenimento */
 
 .entretenimento .card img,
-.carros .card img {
+.carros .card img,
+.cultura .card img {
     height: 100%;
     width: 100%;
 }
