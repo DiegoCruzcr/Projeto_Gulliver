@@ -356,7 +356,7 @@ footer .links {
 /* Entretenimento */
 
 .entretenimento .card img {
-    height: 150px;
+    height: 100%;
     width: 100%;
 }
 
