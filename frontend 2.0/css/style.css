@@ -263,8 +263,6 @@ header {
    
 }
 
-/* Não sei do que é */
-
 .nosso-card:hover {
     transform: scale(110%);
 }
@@ -338,6 +336,10 @@ footer .links {
     justify-content: space-between;
 }
 
+.card {
+    font-size: 13px;
+}
+
 .servicos .btn,
 .hoteis .btn,
 .reservar .btn,
@@ -352,18 +354,17 @@ footer .links {
     border-radius: 25px;
     border: none;
     width: 150px;
+    font-size: 13px;
 }
-
-.servicos .card img {
-    height: 125px;
-    width: 100%;
-}
-
-/* Entretenimento */
 
 .entretenimento .card img,
 .carros .card img,
-.cultura .card img {
+.cultura .card img,
+.gastronomia .card img,
+.historia .card img,
+.parques .card img,
+.noturna .card img,
+.servicos .card img {
     height: 100%;
     width: 100%;
 }
