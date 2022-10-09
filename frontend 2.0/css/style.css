@@ -345,7 +345,8 @@ footer .links {
 .carros .btn,
 .gastronomia .btn,
 .noturna .btn,
-.parques .btn {
+.parques .btn,
+.historia .btn {
     background: #263A8B;
     border-radius: 25px;
     border: none;
