@@ -347,6 +347,11 @@ footer .links {
     width: 150px;
 }
 
+.servicos .card img {
+    height: 125px;
+    width: 100%;
+}
+
 /* Reservar */
 
 .reservar .card .tel {
