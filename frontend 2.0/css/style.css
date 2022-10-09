@@ -340,7 +340,8 @@ footer .links {
 
 .servicos .btn,
 .hoteis .btn,
-.reservar .btn {
+.reservar .btn,
+.entretenimento .btn{
     background: #263A8B;
     border-radius: 25px;
     border: none;
@@ -349,6 +350,13 @@ footer .links {
 
 .servicos .card img {
     height: 125px;
+    width: 100%;
+}
+
+/* Entretenimento */
+
+.entretenimento .card img {
+    height: 150px;
     width: 100%;
 }
 
